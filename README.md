@@ -1,5 +1,6 @@
 # menu_for_guide_help
-Left menu for guide, help, ebook... easy to read
+
+HTML, JS, CSS - Left menu for guide, help, ebook... easy to read
 Simulator guide document of VMWare: https://core.vmware.com/resource/running-modern-applications-vmware-vsphere-tanzu#architecture-diagram
 
 - Compatible with Desktop and Mobile
