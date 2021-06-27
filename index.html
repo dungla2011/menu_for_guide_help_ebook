@@ -8,10 +8,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="" />
     <meta name="description"
-          content="chuyên trang tổng hợp tin tức giải trí showbiz, đời sống, chiêm tinh, tử vi, xu hướng thời trang và các sự kiện nổi bật trong và ngoài nước dành cho giới trẻ.">
-    <meta name="keywords" content="Việt Nam">
+          content="Demo GUIDE, EBOOK">
+    <meta name="keywords" content="">
     <title>
-        Menu2
+        DEMO MENU, GUIDE, EBOOK
     </title>
     <link type="image/x-icon" href="//ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico"
           rel="shortcut icon" />
@@ -19,12 +19,20 @@
 </head>
 
 <body class="">
+
+<div style="border-bottom: 1px solid #ccc; background-color: #eee; text-align: center; padding: 5px">
+<h2>EBOOK DEMO MENU</h2>
+</div>
+
+
 <div class="vm-doc">
+
     <a class="vm_toggle"  href="javascript:;">
         <!--         <img alt="" src="images/icons/book.svg">-->
         <img alt="" src="images/icons/menu1.svg">
         <img class="active" alt="" src="images/icons/book-active.svg">
     </a>
+
     <div class="container flex">
         <div class="col-left">
             <div class="vm-doc-sidebar-col">
@@ -843,6 +851,8 @@
         $(window).scroll(function() {
             var scrollDistance = $(window).scrollTop() + 20;
 
+            console.log(" Distance = " , scrollDistance);
+
             var lastHrefScrool = null;
             var changeHrefScrool = null;
 
@@ -850,9 +860,12 @@
                 if ($(this).position().top <= scrollDistance) {
                     $('.nav-item  a.active').removeClass('active');
                     $('.nav-item  a').eq(i).addClass('active');
-                    changeHrefScrool = $('.nav-item  a').eq(i).attr('href');
+
                     $('.nav-item .nav-link').parents('.nav-item').removeClass("active");
                     $('.nav-item .nav-link.active').parents('.nav-item').addClass("active");
+
+                    changeHrefScrool = $('.nav-item  a').eq(i).attr('href');
+
                 }
             });
 
