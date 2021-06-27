@@ -1,7 +1,8 @@
 # menu_for_guide_help
 
 HTML, JS, CSS - Left menu for guide, help, ebook... easy to read
-Simulator guide document of VMWare: https://core.vmware.com/resource/running-modern-applications-vmware-vsphere-tanzu#architecture-diagram
+
+Simulator guide-document of VMWare: https://core.vmware.com/resource/running-modern-applications-vmware-vsphere-tanzu#architecture-diagram
 
 - Compatible with Desktop and Mobile
 - Scrooling in page will make change current URL bar
