@@ -2,6 +2,8 @@
 
 HTML, JS, CSS - Left menu for guide, help, ebook... easy to read
 
+Preview: https://galaxycloud.vn/train/public-lib/menu/index.html
+
 Simulate guide-document of VMWare: https://core.vmware.com/resource/running-modern-applications-vmware-vsphere-tanzu#architecture-diagram
 
 - Compatible with Desktop and Mobile
