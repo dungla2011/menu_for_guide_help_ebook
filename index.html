@@ -849,6 +849,13 @@
     setTimeout(function (){
         //LAD: If it not in setTimeout, it not work correctly
         $(window).scroll(function() {
+
+
+            if(!window.location.hash){
+                console.log(" Empty hash, no scrool");
+                return;
+            }
+
             var scrollDistance = $(window).scrollTop() + 20;
 
             console.log(" Distance = " , scrollDistance);
@@ -870,8 +877,9 @@
             });
 
             if(lastHrefScrool != changeHrefScrool){
+                console.log("Scrool to " + changeHrefScrool);
                 lastHrefScrool = changeHrefScrool;
-                console.log(" Scrool, auto change URL To lastHrefScrool = " + lastHrefScrool);
+                //console.log(" Scrool, auto change URL To lastHrefScrool = " + lastHrefScrool);
                 window.location.hash = lastHrefScrool;
             }
 
